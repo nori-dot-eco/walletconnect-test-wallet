@@ -24,7 +24,7 @@ export const SUPPORTED_CHAINS: IChainData[] = [
     network: "ganache",
     chain_id: 9001,
     network_id: 9001,
-    rpc_url: process.env.REACT_APP_INFURA_PROJECT_ID!,
+    rpc_url: "http://127.0.0.1:8545",
     native_currency: {
       symbol: "ETH",
       name: "Ether",
